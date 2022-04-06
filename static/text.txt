@@ -1,0 +1,2 @@
+this is a text file whoch anyone can read i e visitors
+also we call it as a static webpage
