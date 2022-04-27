@@ -18,6 +18,9 @@ def about(request):
 def services(request):
     #return   HttpResponse('This is service page')
     return render(request,'services.html')    
+def services2(request):
+    #return   HttpResponse('This is service page')
+    return render(request,'services2.html')        
 def contacts(request):
     #return   HttpResponse('This is contact page')
     if request.method=="POST":

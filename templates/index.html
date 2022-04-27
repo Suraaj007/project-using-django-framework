@@ -1,22 +1,22 @@
 {% extends 'base.html' %}
 {% block title %} Home {% endblock title %} 
 {% block body %}
-<div class="container-fluid my-4 px-0">
+<div class="container-fluid  px-0">
  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active" style='padding: 0px 200px 50px 200px'>
       <div style="height:600px;width:900px">  <!--This is a comment. use the corr syntax to manage ht and width-->
-      <center>
+      
       <img src="/static/img1.jpg" class="d-block w-100 " alt="...">
-      </center></div>
+      </div>
     </div>
-    <div class="carousel-item">
-      <div style="height:600px;width:1000px">
+    <div class="carousel-item" style='padding: 0px 200px 50px 200px'>
+      <div style="height:600px;width:1000px ">
   
       <img src="/static/img2.jpg" class="d-block w-100" alt="...">
     
     </div></div>
-    <div class="carousel-item" style='padding: 50px 200px 50px 200px; height:1000px ' >
+    <div class="carousel-item" style='padding: 0px 200px 50px 200px; height:1000px ' >
       <div style="height:100%;width:100%;display:flex">
       <img src="/static/img3.jpg" class="d-block w-100" alt="...">
     </div></div>
@@ -41,13 +41,13 @@
       <div class="card shadow-sm">
         <img src="/static/4.jpg" class="d-block w-100" alt="...">
         <div class="card-body">
-          <p class="card-text">This is choco ice cream popular among kids</p>
+          <p class="card-text">chocolate ice cream </p>
           <div class="d-flex justify-content-between align-items-center">
             <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">$10</button>
             </div>
-            <small class="text-muted">9 mins</small>
+            <small class="text-muted"></small>
           </div>
         </div>
       </div>
@@ -56,39 +56,93 @@
       <div class="card shadow-sm">
         <img src="/static/5.jpg" class="d-block w-100" alt="...">
         <div class="card-body">
-          <p class="card-text">This is a delicius ice cream.</p>
+          <p class="card-text">Crispy chocolate
+            
+        </p>
           <div class="d-flex justify-content-between align-items-center">
             <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">$5</button>
             </div>
-            <small class="text-muted">9 mins</small>
+            <small class="text-muted"></small>
           </div>
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card shadow-sm">
-        <img src="/static/6.jpg" class="d-block w-100" alt="...">
+        <img src="/static/strawberry1.jpg" class="d-block w-100" alt="...">
 
         <div class="card-body">
-          <p class="card-text">This is vanilal flavoured ice creams.</p>
+          <p class="card-text">Strawberry icecream</p>
           <div class="d-flex justify-content-between align-items-center">
             <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">$3</button>
             </div>
-            <small class="text-muted">9 mins</small>
+            <small class="text-muted"></small>
           </div>
         </div>
       </div>
     </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/specialcone.jpg" class="d-block w-100" alt="...">
+
+        <div class="card-body">
+          <p class="card-text">chocolate corneto</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">$3</button>
+            </div>
+            <small class="text-muted"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/6.jpg" class="d-block w-100" alt="...">
+
+        <div class="card-body">
+          <p class="card-text">vanila icecream</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">$3</button>
+            </div>
+            <small class="text-muted"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/redvelvet.jpg" class="d-block w-100" alt="...">
+
+        <div class="card-body">
+          <p class="card-text">Red Velvet icecream</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">$3</button>
+            </div>
+            <small class="text-muted"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
 
   
 
     
     
     
-  </div>
+ </div>
 </div>
 {% endblock body %}
